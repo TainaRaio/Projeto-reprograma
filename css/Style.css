@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.banner {
+   background-image: url(../imagens/banner-bg.png); 
+   height: 90vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.banner p, h1{
+    color: red;
+    margin: 0;
+}
+
+.banner button {
+    color:  #7E459B;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.descricao, .habilidades {
+    display: inline-block;
+    width: 40%;
+    
+
+}
+
+.descricao button {
+    color: #7E459B;
+    background-color: white;
+    padding: 8px;
+    border-radius: 30px;
+    border-color: #7E459B;
+}
